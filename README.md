@@ -1,3 +1,4 @@
+### Overview
 <p>I wrangled data from the Mission District of San Francisco.  I made a custom extract on Mapzen at https://mapzen.com/data/metro-extracts/your-extracts/dfe5d8113149 and downloaded the "OSM XML" file.  The borders for my selected region are not exact so there is some data from neighboring districts as well.  The goal of this project was to iteratively parse, audit and clean the data, read the cleaned data into csv files, and then import those csv files into a SQL database.  The resultant database was queried to gain insight into the OpenStreetMap data.</p>  
 
 <p>The OSM file was made up of "node" and "way" tags that contained nested tags.  Below is a small section of the raw OSM data from a sample file I created.</p>
