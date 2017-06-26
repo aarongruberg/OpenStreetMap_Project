@@ -1,3 +1,6 @@
+# This script parses and cleans the xml data and then writes the cleaned data to csv files.
+# The csv files were imported to a sql database.
+
 from collections import defaultdict
 import csv
 import codecs
