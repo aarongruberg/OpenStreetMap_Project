@@ -1,10 +1,8 @@
-﻿Map Area:
-
 San Francisco, CA
 
 Mission District, Haight Ashbury and Castro
 
-https://mapzen.com/data/metro-extracts/your-extracts/dfe5d8113149
+Link: https://mapzen.com/data/metro-extracts/your-extracts/dfe5d8113149
 
 I live in the Mission District and am familiar with the neighboring areas.  I chose this dataset
 because I wanted to see if I could use my database queries to learn new things about my city.
