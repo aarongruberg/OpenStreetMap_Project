@@ -1,12 +1,12 @@
+# This is one of my sql queries. It finds the count of each cuisine value that occurs more than once.
+# I excluded things like ice_cream and juice from my query because I was only interested in savory food.
+
 import sqlite3
 
 # Fetch records from either mission_district.db
 db = sqlite3.connect("mission_district.db")
 c = db.cursor()
 
-# Finds the count of each cuisine value that occurs more than once.
-# I excluded things like ice_cream and juice from my query because
-# I was only interested in savory food.
 
 QUERY = """
 SELECT both.value, COUNT(both.value)
